@@ -6,10 +6,10 @@ This only needs to be run once. You will need node installed (I couldn't get a b
 
 To run this quickly use
 
-```curl -fSSL todo-path-to-script | node```
+```curl -fSSL https://github.com/bcosynot/hyperutil/raw/refs/heads/main/capsLockOnHyperdrive.js | node```
 
 or, alternatively with `wget`, run
 
-```wget -q todo-path-to-script -O- | node```
+```wget -q https://github.com/bcosynot/hyperutil/raw/refs/heads/main/capsLockOnHyperdrive.js -O- | node```
 
 or, lastly, checkout the repo and run `node capsLockOnHyperdrive.js`
