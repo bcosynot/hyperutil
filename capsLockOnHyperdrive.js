@@ -59,7 +59,10 @@ if (fs.existsSync(filePath)) {
         <string>--set</string>
         <string>'{
             "UserKeyMapping":[
-                {"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000006D},
+                {
+                    "HIDKeyboardModifierMappingSrc":0x700000039,
+                    "HIDKeyboardModifierMappingDst":0x70000006D
+                }
             ]
         }'</string>
     </array>
@@ -70,5 +73,4 @@ if (fs.existsSync(filePath)) {
 
     fs.writeFileSync(filePath, initialContent);
     console.log(`Plist created at ${filePath}`);
-    addMapping(initialContent);
 }
