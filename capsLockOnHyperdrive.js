@@ -24,7 +24,7 @@ const addMapping = (content) => {
 
     if (userKeyMappingStart !== -1 && userKeyMappingEnd !== -1) {
         const newMappingString = JSON.stringify(newMapping);
-        const updatedContent = content.slice(0, userKeyMappingEnd - 1) + newMappingString + content.slice(userKeyMappingEnd - 1);
+        const updatedContent = content.slice(0, userKeyMappingEnd - 1) + ',' + newMappingString + content.slice(userKeyMappingEnd - 1);
         fs.writeFileSync(filePath, updatedContent);
         console.log('New key mapping added.');
     } else {
