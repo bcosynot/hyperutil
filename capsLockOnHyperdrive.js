@@ -59,8 +59,7 @@ if (fs.existsSync(filePath)) {
         <string>--set</string>
         <string>'{
             "UserKeyMapping":[
-                {"HIDKeyboardModifierMappingSrc":0x700000064,"HIDKeyboardModifierMappingDst":0x70000004C},
-                {"HIDKeyboardModifierMappingSrc":0x70000004C,"HIDKeyboardModifierMappingDst":0x700000064}
+                {"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000006D},
             ]
         }'</string>
     </array>
