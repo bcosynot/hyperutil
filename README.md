@@ -4,6 +4,8 @@ This is a small utility script to remap the Caps-Lock key on your Mac to the F18
 
 This only needs to be run once. You will need node installed (I couldn't get a bash script to work well, unfortunately).
 
+To learn more about how to use caps-lock as hyper and escape, check out this blog post at [https://prodlog.xyz/posts/better-caps-lock](https://prodlog.xyz/posts/better-caps-lock)
+
 To run this quickly use
 
 ```shell
